@@ -15,6 +15,7 @@ import 'package:ditonton/presentation/migrate_to_bloc/bloc_migrate_movie/bloc_mi
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+
 class HomeMoviePage extends StatefulWidget {
   @override
   _HomeMoviePageState createState() => _HomeMoviePageState();

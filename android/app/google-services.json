@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306685794913",
+    "project_id": "ditonton-fauzan-akmal-bloc",
+    "storage_bucket": "ditonton-fauzan-akmal-bloc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306685794913:android:2a166a9af86869a9b2a820",
+        "android_client_info": {
+          "package_name": "com.dicoding.ditonton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306685794913-6f0s87i0ugvduge21srjrb8qhvlbcmjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1-XLBxZDq953l656abu3hpmdDw4r9_hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306685794913-6f0s87i0ugvduge21srjrb8qhvlbcmjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
