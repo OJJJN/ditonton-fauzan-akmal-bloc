@@ -43,7 +43,7 @@ import 'package:ditonton/presentation/migrate_to_bloc/bloc_migrate_tvls/bloc_mig
 import 'package:ditonton/presentation/migrate_to_bloc/bloc_migrate_tvls/bloc_migrate_top_rated_tvls/migrate_tvls_top_rated_bloc.dart';
 import 'package:ditonton/presentation/migrate_to_bloc/bloc_migrate_tvls/bloc_migrate_watchlist_tvls/migrate_tvls_watchlist_bloc.dart';
 
-import 'package:http/http.dart' as http;
+import 'package:ditonton/data/datasources/ssl_pinning/ssl_pinning.dart';
 import 'package:get_it/get_it.dart';
 
 final locator = GetIt.instance;
@@ -142,5 +142,5 @@ void init() {
   locator.registerLazySingleton<DatabaseHelperTvls>(() => DatabaseHelperTvls());
 
   // external
-  locator.registerLazySingleton(() => http.Client());
+  locator.registerLazySingleton(() => SSLPinning.client);
 }
